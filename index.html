@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Search</title>
+  <link rel="icon" type="icon" href="img/icon2.png">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!--- <img src="weather bg.jpg" alt="weather"/>-->
+  <div class="weather-app">
+    <h1>Weather Search</h1>
+    <div class="search-bar">
+      <i class="bx bxs-map"></i>
+      <input type="text" id="city-input" placeholder="Enter city name">
+      <button  id="btn" type="button" onclick="fetchWeather();">Search</button>
+    
+    </div>
+    <div id="weather-result">
+      <h1 id="d"></h1>
+      <!-- Weather data will be displayed here -->
+    </div>
+  </div>
+
+
+  <script src="weather.js"></script>
+</body>
+</html>
